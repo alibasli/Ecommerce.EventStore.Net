@@ -16,8 +16,8 @@ It uses:
 - pure data entities, functions and handlers,
 - Stores events from the command handler result  EventStoreDB,
 - Builds read models using [Subscription to `$all`](https://developers.eventstore.com/clients/grpc/subscribing-to-streams/#subscribing-to-all).
-- Read models are stored to Postgres relational tables with [Entity Framework](https://docs.microsoft.com/en-us/ef/core/).
-- App has Swagger and predefined [docker-compose](./docker/docker-compose.yml) to run and play with samples.
+- Read models are stored to Postgres relational tables with Entity Framework
+- App has Swagger and predefined [docker-compose](docker-compose.yml) to run and play with samples.
 
 
 ## Prerequisities
@@ -30,7 +30,7 @@ It uses:
 
 ## Running
 
-1. Go to [docker](./docker) and run: `docker-compose up`.
+1. Go to main folder and run: `docker-compose up`.
 2. Wait until all dockers got are downloaded and running.
 3. You should automatically get:
     - EventStoreDB UI (for event store): http://localhost:2113/
